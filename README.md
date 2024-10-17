@@ -2,6 +2,7 @@
 
 #### N과 M(2) ####
 
+```
 N, M = map(int, input().split())
 path = []
 
@@ -17,3 +18,4 @@ def dfs(lev, start):
             path.pop()
 
 dfs(0,1)
+```
