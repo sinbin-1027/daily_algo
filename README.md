@@ -19,3 +19,4 @@ def dfs(lev, start):
 
 dfs(0,1)
 ```
+이거푸니까 잠이쏟아져서 포기 gg..
