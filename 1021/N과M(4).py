@@ -5,14 +5,14 @@ N, M = map(int, input().strip().split())
 path = []
 v = []
 
-def dfs(lev):
+def dfs(lev,num):
     if lev == M:
         print(*path)
         return
 
-    for i in range(1, N+1):
+    for i in range(num, N+1):
         path.append(i)
-        dfs(lev+1)
+        dfs(lev+1, i)
         path.pop()
 
-dfs(0)
+dfs(0,1)
